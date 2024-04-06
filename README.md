@@ -12,7 +12,7 @@ Asegúrate de tener instalado Node.js y npm en tu máquina antes de comenzar con
 Clona este repositorio en tu máquina local:
 
 ```markdown
-git clone <url_del_repositorio>
+git clone https://github.com/CAntonioGQ/API-TS-Seq-Nodemon
 ```
 
 Instala las dependencias del proyecto:
