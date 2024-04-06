@@ -26,7 +26,7 @@ Configura tu base de datos MySQL en el archivo `db/connection.ts`.
 Ejecuta el servidor:
 
 ```markdown
-npm start
+npm run start
 ```
 
 ## Uso
