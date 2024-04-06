@@ -28,7 +28,8 @@ const putUsuario = (req, res) => {
     const { body } = req;
     res.json({
         msg: 'putUsuario',
-        body: body
+        body: body,
+        id: id
     });
 };
 exports.putUsuario = putUsuario;
