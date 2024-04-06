@@ -3,7 +3,7 @@ import express, { Application } from 'express'
 import userRoutes from '../routes/usuario.routes'
 
 import cors  from "cors";
-import db from '../../db/connection';
+import db from '../db/connection';
 
 class Server{
 
@@ -28,7 +28,7 @@ class Server{
             await db.authenticate()
             console.log('Database is Connected')
         } catch (error) {
-            console.log('Unable to connect to the database:', console.error);
+            console.error('Unable to connect to the database:', error);
             
         }
     }

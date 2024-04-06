@@ -34,7 +34,7 @@ class Server {
                 console.log('Database is Connected');
             }
             catch (error) {
-                console.log('Unable to connect to the database:', console.error);
+                console.error('Unable to connect to the database:', error);
             }
         });
     }
